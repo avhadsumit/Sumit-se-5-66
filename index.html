@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Web fundamental</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>This is the <strong>home section.</strong></p>
+        <img src="img.jpg" alt="Sample Image">
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>This is the about section.</p>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Js</li>
+        </ol>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>This is the services section.</p>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Service 1</td>
+                <td>RS100</td>
+            </tr>
+            <tr>
+                <td>Service 2</td>
+                <td>RS200</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="multimedia">
+        <h2>Multimedia</h2>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <footer>
+        <p>&copy;web dev</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
